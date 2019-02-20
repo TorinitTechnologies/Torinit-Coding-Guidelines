@@ -5,8 +5,8 @@
     },
     "extends": ["eslint:recommended", "airbnb", "prettier"],
     "globals": {
-        "Atomics": "readonly",
-        "SharedArrayBuffer": "readonly"
+        "Atomics": "readable",
+        "SharedArrayBuffer": "readable"
     },
     "plugins": ["prettier"],
     "parserOptions": {
